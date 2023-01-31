@@ -7,6 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Disclaimer: typeof import('./src/components/Disclaimer.vue')['default']
+    MainComponent: typeof import('./src/components/MainComponent.vue')['default']
     PlaceHolderComponent: typeof import('./src/components/PlaceHolderComponent.vue')['default']
     ThemeSwitcher: typeof import('./src/components/ThemeSwitcher.vue')['default']
   }
