@@ -249,11 +249,11 @@ for (const service of savedServices.value) {
           class="flex flex-col gap-2 font-bold"
           v-for="service of savedServices"
         >
-          <div class="flex gap-1 items-center text-xl">
+          <div class="flex gap-1 items-center uppercase">
             <div>
               <img
-                width="45"
-                height="45"
+                width="35"
+                height="35"
                 class="rounded-md"
                 :src="iconPath(service.short_code)"
                 :alt="service.name"
@@ -367,6 +367,7 @@ for (const service of savedServices.value) {
 }
 
 .input {
+  max-width: 5rem;
   @apply text-black font-bold py-1 px-2 rounded-sm;
 }
 </style>
