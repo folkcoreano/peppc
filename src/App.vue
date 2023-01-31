@@ -272,7 +272,8 @@ for (const service of savedServices.value) {
               }}
             </div>
           </div>
-          <div class="flex flex-col flex-1 gap-1">
+
+          <div class="flex flex-col gap-1">
             <div class="flex gap-1">
               <select class="flex-1 select" v-model="service.price">
                 <option value="">selecionar plano</option>
@@ -280,7 +281,8 @@ for (const service of savedServices.value) {
                   {{ plan.name }}
                 </option>
               </select>
-              <label class="flex-1" for="price">
+
+              <label class="" for="price">
                 <input
                   id="price"
                   name="price"
@@ -292,8 +294,11 @@ for (const service of savedServices.value) {
                 />
               </label>
             </div>
+
             <div class="flex gap-1">
               <select
+                id="selmeses"
+                name="selmeses"
                 class="flex-1 select"
                 v-model="service.type"
                 :class="checkPeriod(service.type)"
@@ -303,7 +308,8 @@ for (const service of savedServices.value) {
                   {{ tp.type }}
                 </option>
               </select>
-              <label for="meses" class="flex-1">
+
+              <label for="meses">
                 <input
                   name="meses"
                   id="meses"
@@ -350,6 +356,7 @@ for (const service of savedServices.value) {
 ::-webkit-scrollbar-thumb {
   @apply bg-indigo-400 cursor-pointer;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-indigo-300 cursor-pointer;
 }
