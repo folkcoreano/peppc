@@ -1,0 +1,32 @@
+[
+  {
+    "code": "",
+    "combo": true,
+    "name": "COMBO: Disney+ e Star+",
+    "plans": [
+      {
+        "name": "Padrão",
+        "price": 45.9
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": ["dnp", "srp"],
+    "type": ""
+  },
+  {
+    "code": "",
+    "combo": true,
+    "name": "COMBO: Disney+, Star+ e Lionsgate+",
+    "plans": [
+      {
+        "name": "Padrão",
+        "price": 55.9
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": ["dnp", "srp", "lgu"],
+    "type": ""
+  }
+]

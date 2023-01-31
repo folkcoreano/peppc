@@ -1,0 +1,280 @@
+[
+  {
+    "code": "netflix",
+    "combo": false,
+    "name": "Netflix",
+    "plans": [
+      {
+        "name": "Básico - Mensal",
+        "price": 18.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Mensal",
+        "price": 39.9,
+        "span": 1
+      },
+      {
+        "name": "Premium - Mensal",
+        "price": 55.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "nfx",
+    "type": ""
+  },
+  {
+    "code": "disney-plus",
+    "combo": false,
+    "name": "Disney+",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 27.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "dnp",
+    "type": ""
+  },
+  {
+    "code": "amazon-prime-video",
+    "combo": false,
+    "name": "Prime Video",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 9.92,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "prv",
+    "type": ""
+  },
+  {
+    "code": "star-plus",
+    "combo": false,
+    "name": "Star+",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 32.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 27.5,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "srp",
+    "type": ""
+  },
+  {
+    "code": "claro-video",
+    "combo": false,
+    "name": "Clarovideo",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "clv",
+    "type": ""
+  },
+  {
+    "code": "looke",
+    "combo": false,
+    "name": "Looke",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 16.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 8.32,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "lke",
+    "type": ""
+  },
+  {
+    "code": "paramount-plus",
+    "combo": false,
+    "name": "Paramount+",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 16.65
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "pmp",
+    "type": ""
+  },
+  {
+    "code": "hbo-max",
+    "combo": false,
+    "name": "HBO MAX",
+    "plans": [
+      {
+        "name": "Mobile 1 Mês",
+        "price": 19.9,
+        "span": 1
+      },
+      {
+        "name": "Mobile 3 Meses",
+        "price": 18.3,
+        "span": 3
+      },
+      {
+        "name": "Mobile 12 Meses",
+        "price": 14.15,
+        "span": 12
+      },
+      {
+        "name": "Multitelas 1 Mês",
+        "price": 27.9,
+        "span": 1
+      },
+      {
+        "name": "Multitelas 3 Meses",
+        "price": 24.9,
+        "span": 3
+      },
+      {
+        "name": "Multitelas 12 Meses",
+        "price": 19.99,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "hbm",
+    "type": ""
+  },
+  {
+    "code": "apple-tv-plus",
+    "combo": false,
+    "name": "Apple TV+",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.9
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "atp",
+    "type": ""
+  },
+  {
+    "code": "globoplay",
+    "combo": false,
+    "name": "Globoplay",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 24.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 19.9
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "gop",
+    "type": ""
+  },
+  {
+    "code": "funimation-now",
+    "combo": false,
+    "name": "Funimation Now",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.99
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "fmn",
+    "type": ""
+  },
+  {
+    "code": "mubi",
+    "combo": false,
+    "name": "MUBI",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 29.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 19.9,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "mbi",
+    "type": ""
+  },
+  {
+    "code": "kocowa",
+    "combo": false,
+    "name": "Kocowa",
+    "plans": [
+      {
+        "name": "Básico - Mensal",
+        "price": 20.9
+      },
+      {
+        "name": "Básico - Anual",
+        "price": 17
+      },
+      {
+        "name": "Padrão - Mensal",
+        "price": 25.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 21.24
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "koc",
+    "type": ""
+  }
+]
