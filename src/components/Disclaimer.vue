@@ -42,9 +42,3 @@ const showHelp = useHelperStore();
     </div>
   </div>
 </template>
-
-<style>
-* {
-  /* outline: 1px dotted red; */
-}
-</style>
