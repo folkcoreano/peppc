@@ -80,7 +80,8 @@ const checkPeriodTime = (type) => {
   }
 };
 
-const iconPath = (icon) => `https://ik.imagekit.io/yonas/PEPPC/${icon}.webp`;
+const iconPath = (icon) =>
+  `https://ik.imagekit.io/yonas/PEPPC/${icon}.webp?tr=w-100`;
 
 watchEffect(() => {
   if (savedServices.value.length > 0) {

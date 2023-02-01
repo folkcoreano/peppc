@@ -217,7 +217,7 @@
   {
     "code": "funimation-now",
     "combo": false,
-    "name": "Funimation Now",
+    "name": "Crunchyroll",
     "plans": [
       {
         "name": "Padrão - Mensal",
@@ -275,6 +275,44 @@
     "price": "",
     "period_price": "",
     "short_code": "koc",
+    "type": ""
+  },
+  {
+    "code": "",
+    "combo": false,
+    "name": "Viki Rakuten",
+    "plans": [
+      {
+        "name": "Standard - Mensal",
+        "price": 25
+      },
+      {
+        "name": "Plus - Mensal",
+        "price": 35
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "rkv",
+    "type": ""
+  },
+  {
+    "code": "",
+    "combo": false,
+    "name": "Discovery+",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 21.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 18.9
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "dcp",
     "type": ""
   }
 ]
