@@ -314,5 +314,24 @@
     "period_price": "",
     "short_code": "dcp",
     "type": ""
+  },
+  {
+    "code": "belas-artes-a-la-carte",
+    "combo": false,
+    "name": "Belas Artes á La Carte",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 12.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 11.75
+      }
+    ],
+    "price": "",
+    "period_price": "",
+    "short_code": "bac",
+    "type": ""
   }
 ]

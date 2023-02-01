@@ -22,8 +22,9 @@ const showHelp = useHelperStore();
         <a class="underline" href="https://twitter.com/phsantos">@phsantos</a>.
       </p>
       <p>
-        é até recomendável assistir ao vídeo dele para você pode entender melhor
-        todo o conceito por trás do plano econômico para pessoas cinéfilas.
+        é até recomendável assistir ao vídeo dele para você poder entender
+        melhor todo o conceito por trás do plano econômico para pessoas
+        cinéfilas.
       </p>
       <p>na verdade seria até cômodo colocar o vídeo aqui logo, né?</p>
       <p>pois aqui está:</p>
