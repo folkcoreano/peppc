@@ -25,7 +25,7 @@ const addService = (service) => {
       1
     );
   } else {
-    savedServices.value.unshift(service);
+    savedServices.value.push(service);
   }
 
   if (savedServices.value.length > 0) {
@@ -49,8 +49,8 @@ const addService = (service) => {
 
 const checkService = (id) => {
   return savedServices.value.flatMap((e) => e.short_code).some((e) => e === id)
-    ? "opacity-100"
-    : "opacity-40";
+    ? "filter grayscale-0 opacity-100 border-[2px] border-green-500"
+    : "filter grayscale-100 opacity-50";
 };
 
 const clearServices = () => (savedServices.value = []);
@@ -136,12 +136,14 @@ for (const service of savedServices.value) {
             v-if="finalUrl"
             class="cursor-pointer border-green-900 uppercase hover:bg-green-700 transition-all hover:border-r-[0px] border-r-[2px] border-b-[2px] hover:border-b-[0px] bg-green-500 font-bold px-2 rounded"
             @click="copyServices"
+            @keydown.space.enter="copyServices"
           >
             copiar
           </button>
           <button
             class="cursor-pointer border-purple-900 uppercase hover:bg-purple-700 transition-all hover:border-r-[0px] border-r-[2px] border-b-[2px] hover:border-b-[0px] bg-purple-500 font-bold px-2 rounded"
             @click="pasteServices"
+            @keydown.space.enter="pasteServices"
           >
             colar
           </button>
@@ -149,6 +151,7 @@ for (const service of savedServices.value) {
             v-if="finalUrl"
             class="cursor-pointer border-red-900 uppercase hover:bg-red-700 transition-all hover:border-r-[0px] border-r-[2px] border-b-[2px] hover:border-b-[0px] bg-red-500 font-bold px-2 rounded"
             @click="clearServices"
+            @keydown.space.enter="clearServices"
           >
             apagar
           </button>
@@ -180,11 +183,24 @@ for (const service of savedServices.value) {
           combo,
           price,
         } of services.filter((service) => !service.combo)"
+        tabindex="0"
+        @keydown.space.enter="
+          addService({
+            code,
+            name,
+            plans,
+            short_code,
+            type,
+            combo,
+            price,
+            period_price,
+          })
+        "
       >
         <img
           width="55"
           height="55"
-          class="rounded-lg transition-all"
+          class="rounded-lg transition-all ease-linear"
           :class="checkService(short_code)"
           :src="iconPath(short_code)"
           :alt="name"
@@ -217,19 +233,12 @@ for (const service of savedServices.value) {
       class="flex flex-col gap-2 py-3"
     >
       <div class="borda">
-        <span>por mês</span>
-        <span>{{ formatPrice(monthPrice) }}</span>
-      </div>
-
-      <div class="borda">
         <span>média por mês</span>
-        <span>{{
-          formatPrice(monthPrice / savedServices.filter((e) => e.price).length)
-        }}</span>
+        <span>{{ formatPrice(periodPrice / 12) }}</span>
       </div>
 
       <div class="borda">
-        <span>por ano</span>
+        <span>total do ano</span>
         <span>{{ formatPrice(periodPrice) }}</span>
       </div>
     </div>
