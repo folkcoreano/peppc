@@ -1,6 +1,6 @@
 <script setup>
-import Disclaimer from "./components/Disclaimer.vue";
-import MainComponent from "./components/MainComponent.vue";
+import Disclaimer from "@/components/Disclaimer.vue";
+import MainComponent from "@/components/MainComponent.vue";
 import { useHelperStore } from "@/stores/helper";
 
 const showHelp = useHelperStore();
@@ -48,15 +48,3 @@ watchEffect(() => {
     </p>
   </footer>
 </template>
-
-<style>
-.v-enter-active,
-.v-leave-active {
-  transition: all 180ms linear;
-}
-
-.v-enter-from,
-.v-leave-to {
-  translate: 0 1rem;
-}
-</style>

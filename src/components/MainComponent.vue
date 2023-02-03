@@ -19,9 +19,9 @@ const colors = [
 ];
 
 const addService = (service) => {
-  if (savedServices.value.some((e) => e.short_code === service.short_code)) {
+  if (savedServices.value.some((e) => e.code === service.code)) {
     savedServices.value.splice(
-      savedServices.value.findIndex((e) => e.short_code === service.short_code),
+      savedServices.value.findIndex((e) => e.code === service.code),
       1
     );
   } else {
@@ -48,7 +48,7 @@ const addService = (service) => {
 };
 
 const checkService = (id) => {
-  return savedServices.value.flatMap((e) => e.short_code).some((e) => e === id)
+  return savedServices.value.flatMap((e) => e.code).some((e) => e === id)
     ? "filter grayscale-0 opacity-100 border-[2px] border-green-500"
     : "filter grayscale-100 opacity-50";
 };
@@ -159,54 +159,48 @@ for (const service of savedServices.value) {
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap gap-1">
-      <div
-        class="cursor-pointer"
-        @click="
-          addService({
-            code,
-            name,
-            plans,
-            short_code,
-            type,
-            combo,
-            price,
-            period_price,
-          })
-        "
-        v-for="{
-          code,
-          period_price,
-          name,
-          plans,
-          short_code,
-          type,
-          combo,
-          price,
-        } of services.filter((service) => !service.combo)"
-        tabindex="0"
-        @keydown.space.enter="
-          addService({
-            code,
-            name,
-            plans,
-            short_code,
-            type,
-            combo,
-            price,
-            period_price,
-          })
-        "
-      >
-        <img
-          width="55"
-          height="55"
-          class="rounded-lg transition-all ease-linear"
-          :class="checkService(short_code)"
-          :src="iconPath(short_code)"
-          :alt="name"
-          :title="name"
-        />
+    <div class="flex flex-col gap-1">
+      <div class="flex flex-wrap gap-1">
+        <div
+          class="cursor-pointer"
+          @click="addService(service)"
+          v-for="service of services.filter((e) => !e.combo)"
+          tabindex="0"
+          @keydown.space.enter="addService(service)"
+        >
+          <img
+            width="55"
+            height="55"
+            class="rounded-lg transition-all ease-linear"
+            :class="checkService(service.code)"
+            :src="iconPath(service.short_code)"
+            :alt="service.name"
+            :title="service.name"
+          />
+        </div>
+      </div>
+      <div class="font-bold">COMBOS</div>
+      <div class="flex flex-col gap-2">
+        <div
+          class="cursor-pointer flex gap-1 items-center"
+          @click="addService(service)"
+          v-for="service of services.filter((e) => e.combo)"
+          tabindex="0"
+          @keydown.space.enter="addService(service)"
+        >
+          <div class="flex gap-1 flex-wrap">
+            <img
+              width="35"
+              height="35"
+              :class="checkService(service.code)"
+              class="rounded transition-all ease-linear"
+              v-for="img in service.short_code"
+              :src="iconPath(img)"
+              alt=""
+            />
+          </div>
+          <div class="font-bold uppercase">{{ service.name }}</div>
+        </div>
       </div>
     </div>
     <div class="flex flex-wrap gap-1 justify-between items-center">
@@ -249,19 +243,30 @@ for (const service of savedServices.value) {
         v-for="service of savedServices"
       >
         <div class="flex gap-1 items-center uppercase">
-          <div>
-            <img
-              width="35"
-              height="35"
-              class="rounded-md"
-              :src="iconPath(service.short_code)"
-              :alt="service.name"
-            />
+          <div class="flex gap-1 items-center flex-wrap">
+            <template v-if="service.combo">
+              <img
+                v-for="img in service.short_code"
+                width="35"
+                height="35"
+                class="rounded-md"
+                :src="iconPath(img)"
+                :alt="service.name"
+              />
+            </template>
+            <template v-else>
+              <img
+                width="35"
+                height="35"
+                class="rounded-md"
+                :src="iconPath(service.short_code)"
+                :alt="service.name"
+              />
+            </template>
           </div>
-          <div>
+          <div class="flex-1">
             {{ service.name }}
           </div>
-          <div v-if="service.type">-</div>
           <div v-if="service.type">
             {{ formatPrice(service.price * checkPeriodTime(service.type)) }}
             em
