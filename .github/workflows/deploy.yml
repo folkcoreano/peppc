@@ -1,0 +1,41 @@
+name: deploy to deno
+
+on: [push]
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 15.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm run build
+
+      - name: clone repository
+        uses: actions/checkout@v3
+
+      - name: setup deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      # - name: build site
+      #   run: deno task build
+
+      - name: deploy site to deno
+        uses: denoland/deployctl@v1
+        with:
+          project: "peppc"
+          import-map: "./deno.json"
+          entrypoint: "./main.ts"

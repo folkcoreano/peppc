@@ -1,0 +1,5 @@
+{
+    "imports":{
+        "server":"https://deno.land/x/lume@v1.15.1/core/server.ts"
+    }
+}
