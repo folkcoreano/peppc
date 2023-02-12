@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "peppc"
-          import-map: "./deno.json"
+          # import-map: "./deno.json"
           entrypoint: "./main.ts"
