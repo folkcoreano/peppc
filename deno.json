@@ -1,5 +1,8 @@
 {
-    "imports":{
-        "server":"https://deno.land/x/lume@v1.15.1/core/server.ts"
-    }
+	"imports": {
+		"server": "https://deno.land/x/lume@v1.15.1/core/server.ts"
+	},
+	"tasks": {
+		"serve": "deno run --allow-all main.ts"
+	}
 }

@@ -5,6 +5,6 @@ const server = new Server({
 	root: `${Deno.cwd()}/dist`,
 });
 
-server.start();
-
 console.log("http://localhost:8000");
+
+server.start();
