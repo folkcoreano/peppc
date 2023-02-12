@@ -17,11 +17,6 @@ jobs:
       - name: essa outra coisa
         uses: actions/setup-node@master
 
-      - name: Installing project dependencies
-        run: npm install
-
-      - name: Building the project
-        run: npm run build
 
       - name: clone repository
         uses: actions/checkout@v3
@@ -31,6 +26,12 @@ jobs:
         with:
           deno-version: v1.x
 
+      - name: Installing project dependencies
+        run: npm install
+
+      - name: Building the project
+        run: npm run build
+
       # - name: deno serve
       #   run: deno task serve
 
@@ -39,4 +40,4 @@ jobs:
         with:
           project: "peppc"
           # import-map: "./deno.json"
-          entrypoint: "server.ts"
+          entrypoint: "./server.ts"
