@@ -39,4 +39,4 @@ jobs:
         with:
           project: "peppc"
           # import-map: "./deno.json"
-          entrypoint: "./main.ts"
+          entrypoint: "./server.ts"
