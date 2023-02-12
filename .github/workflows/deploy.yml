@@ -11,7 +11,6 @@ jobs:
       contents: read
 
     steps:
-       steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
       - name: Installing project dependencies
