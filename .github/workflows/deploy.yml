@@ -31,8 +31,8 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: deno serve
-        run: deno task serve
+      # - name: deno serve
+      #   run: deno task serve
 
       - name: deploy site to deno
         uses: denoland/deployctl@v1

@@ -1,8 +1,10 @@
 {
 	"imports": {
-		"server": "https://deno.land/x/lume@v1.15.1/core/server.ts"
+		"lume/": "https://deno.land/x/lume@v1.15.2/"
 	},
 	"tasks": {
-		"serve": "deno run --allow-all main.ts"
+		"build": "deno task lume",
+		"lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
+		"serve": "deno task lume -s"
 	}
 }
