@@ -44,7 +44,7 @@ watchEffect(() => {
         target="_blank"
         href="https://twitter.com/folkcoreano"
         >@folkcoreano</a
-      >
+      >.
     </p>
   </footer>
 </template>
