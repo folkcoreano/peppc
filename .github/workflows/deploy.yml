@@ -11,12 +11,17 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@master
+      - name: alguma coisa
+        uses: actions/checkout@master
+
+      - name: essa outra coisa
+        uses: actions/setup-node@master
+
       - name: Installing project dependencies
-      - run: npm install
+        run: npm install
+
       - name: Building the project
-      - run: npm run build
+        run: npm run build
 
       - name: clone repository
         uses: actions/checkout@v3
