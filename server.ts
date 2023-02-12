@@ -6,7 +6,5 @@ const server = new Server({
 });
 
 console.log("http://localhost:8000");
-console.log('boo');
-
 
 server.start();
