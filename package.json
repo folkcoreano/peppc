@@ -10,6 +10,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.10",
     "@vueuse/core": "^9.11.1",
     "pinia": "^2.0.28",
     "vue": "^3.2.45"
