@@ -40,8 +40,8 @@ export default defineConfig({
 				short_name: "PEPPC",
 				description: "Plano Econômico Para Pessoas Cinéfilas!",
 				lang: "pt-BR",
-				theme_color: "#6366F1",
-				background_color: "#6366F1",
+				theme_color: "#4043d1",
+				background_color: "#4043d1",
 				orientation: "any",
 				id: "peppc",
 				icons: [
