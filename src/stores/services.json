@@ -1,0 +1,600 @@
+[
+  {
+    "code": "netflix",
+    "combo": false,
+    "name": "Netflix",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Básico - Mensal",
+        "price": 18.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Mensal",
+        "price": 39.9,
+        "span": 1
+      },
+      {
+        "name": "Premium - Mensal",
+        "price": 55.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "short_code": "nfx",
+    "type": ""
+  },
+  {
+    "code": "disney-plus",
+    "combo": false,
+    "name": "Disney+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 27.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "short_code": "dnp",
+    "type": ""
+  },
+  {
+    "code": "amazon-prime-video",
+    "combo": false,
+    "name": "Prime Video",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 9.92,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "short_code": "prv",
+    "type": ""
+  },
+  {
+    "code": "star-plus",
+    "combo": false,
+    "name": "Star+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 32.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 27.5,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "short_code": "srp",
+    "type": ""
+  },
+  {
+    "code": "claro-video",
+    "combo": false,
+    "name": "Clarovideo",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.9,
+        "span": 1
+      }
+    ],
+    "price": "",
+    "short_code": "clv",
+    "type": ""
+  },
+  {
+    "code": "looke",
+    "combo": false,
+    "name": "Looke",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 16.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 8.32,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "short_code": "lke",
+    "type": ""
+  },
+  {
+    "code": "paramount-plus",
+    "combo": false,
+    "name": "Paramount+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 16.65
+      }
+    ],
+    "price": "",
+    "short_code": "pmp",
+    "type": ""
+  },
+  {
+    "code": "hbo-max",
+    "combo": false,
+    "name": "HBO MAX",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Mobile 1 Mês",
+        "price": 19.9,
+        "span": 1
+      },
+      {
+        "name": "Mobile 3 Meses",
+        "price": 18.3,
+        "span": 3
+      },
+      {
+        "name": "Mobile 12 Meses",
+        "price": 14.15,
+        "span": 12
+      },
+      {
+        "name": "Multitelas 1 Mês",
+        "price": 27.9,
+        "span": 1
+      },
+      {
+        "name": "Multitelas 3 Meses",
+        "price": 24.9,
+        "span": 3
+      },
+      {
+        "name": "Multitelas 12 Meses",
+        "price": 19.99,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "short_code": "hbm",
+    "type": ""
+  },
+  {
+    "code": "apple-tv-plus",
+    "combo": false,
+    "name": "Apple TV+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.9
+      }
+    ],
+    "price": "",
+    "short_code": "atp",
+    "type": ""
+  },
+  {
+    "code": "globoplay",
+    "combo": false,
+    "name": "Globoplay",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 24.9
+      },
+      {
+        "name": "Padrão com Canais - Mensal",
+        "price": 49.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 19.9
+      },
+      {
+        "name": "Padrão com Canais - Anual",
+        "price": 42.9
+      }
+    ],
+    "price": "",
+    "short_code": "gop",
+    "type": ""
+  },
+  {
+    "code": "telecine",
+    "combo": false,
+    "name": "Telecine",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 29.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 23.9
+      }
+    ],
+    "price": "",
+    "short_code": "telec",
+    "type": ""
+  },
+  {
+    "code": "premiere",
+    "combo": false,
+    "name": "Premiere",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 59.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 29.9
+      }
+    ],
+    "price": "",
+    "short_code": "prem",
+    "type": ""
+  },
+  {
+    "code": "funimation-now",
+    "combo": false,
+    "name": "Crunchyroll",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 19.99
+      }
+    ],
+    "price": "",
+    "short_code": "fmn",
+    "type": ""
+  },
+  {
+    "code": "mubi",
+    "combo": false,
+    "name": "MUBI",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 29.9,
+        "span": 1
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 19.9,
+        "span": 12
+      }
+    ],
+    "price": "",
+    "short_code": "mbi",
+    "type": ""
+  },
+  {
+    "code": "kocowa",
+    "combo": false,
+    "name": "Kocowa",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Básico - Mensal",
+        "price": 20.9
+      },
+      {
+        "name": "Básico - Anual",
+        "price": 17
+      },
+      {
+        "name": "Padrão - Mensal",
+        "price": 25.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 21.24
+      }
+    ],
+    "price": "",
+    "short_code": "koc",
+    "type": ""
+  },
+  {
+    "code": "viki",
+    "combo": false,
+    "name": "Viki Rakuten",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Standard - Mensal",
+        "price": 25
+      },
+      {
+        "name": "Plus - Mensal",
+        "price": 35
+      }
+    ],
+    "price": "",
+    "short_code": "rkv",
+    "type": ""
+  },
+  {
+    "code": "discovery",
+    "combo": false,
+    "name": "Discovery+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 21.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 18.9
+      }
+    ],
+    "price": "",
+    "short_code": "dcp",
+    "type": ""
+  },
+  {
+    "code": "belas-artes-a-la-carte",
+    "combo": false,
+    "name": "Belas Artes á La Carte",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 12.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 11.75
+      }
+    ],
+    "price": "",
+    "short_code": "bac",
+    "type": ""
+  },
+  {
+    "code": "lionsgate-plus",
+    "combo": false,
+    "name": "Lionsgate+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.9
+      },
+      {
+        "name": "Padrão - Trimestral",
+        "price": 12.9
+      }
+    ],
+    "price": "",
+    "short_code": "lgu",
+    "type": ""
+  },
+  {
+    "code": "combate",
+    "combo": false,
+    "name": "Combate",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 34.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 19.9
+      }
+    ],
+    "price": "",
+    "short_code": "combate",
+    "type": ""
+  },
+  {
+    "code": "mercado-livre-6",
+    "combo": true,
+    "name": "Mercado Livre Nível 6: Disney+ e Star+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 14.99
+      }
+    ],
+    "price": "",
+    "short_code": ["dnp", "srp"],
+    "type": ""
+  },
+  {
+    "code": "globoplay-discovery",
+    "combo": true,
+    "name": "Globoplay e Discovery+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 38.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 32.9
+      }
+    ],
+    "price": "",
+    "short_code": ["gop", "dcp"],
+    "type": ""
+  },
+  {
+    "code": "globoplay-lionsgate",
+    "combo": true,
+    "name": "Globoplay e Lionsgate+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 35.8
+      }
+    ],
+    "price": "",
+    "short_code": ["gop", "lgu"],
+    "type": ""
+  },
+  {
+    "code": "globoplay-disney",
+    "combo": true,
+    "name": "Globoplay e Disney+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 43.9
+      },
+      {
+        "name": "Padrão com Canais - Mensal",
+        "price": 69.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 37.9
+      },
+      {
+        "name": "Padrão com Canais - Anual",
+        "price": 59.9
+      }
+    ],
+    "price": "",
+    "short_code": ["gop", "dnp"],
+    "type": ""
+  },
+  {
+    "code": "globoplay-telecine",
+    "combo": true,
+    "name": "Globoplay e Telecine",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 49.9
+      },
+      {
+        "name": "Padrão com Canais - Mensal",
+        "price": 71.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 37.9
+      },
+      {
+        "name": "Padrão com Canais - Anual",
+        "price": 57.9
+      }
+    ],
+    "price": "",
+    "short_code": ["gop", "telec"],
+    "type": ""
+  },
+  {
+    "code": "premiere-globoplay",
+    "combo": true,
+    "name": "Globoplay e Premiere",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 69.9
+      },
+      {
+        "name": "Padrão com Canais - Mensal",
+        "price": 89.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 39.9
+      },
+      {
+        "name": "Padrão com Canais - Anual",
+        "price": 59.9
+      }
+    ],
+    "price": "",
+    "short_code": ["gop", "prem"],
+    "type": ""
+  },
+  {
+    "code": "telecine-premiere",
+    "combo": true,
+    "name": "Telecine e Premiere",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão - Mensal",
+        "price": 80.9
+      },
+      {
+        "name": "Padrão - Anual",
+        "price": 49.9
+      }
+    ],
+    "price": "",
+    "short_code": ["telec", "prem"],
+    "type": ""
+  },
+  {
+    "code": "disney-star",
+    "combo": true,
+    "name": "Disney+ e Star+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão",
+        "price": 45.9
+      }
+    ],
+    "price": "",
+    "short_code": ["dnp", "srp"],
+    "type": ""
+  },
+  {
+    "code": "disney-star-lionsgate",
+    "combo": true,
+    "name": "Disney+, Star+ e Lionsgate+",
+    "period_price": "",
+    "plans": [
+      {
+        "name": "Padrão",
+        "price": 55.9
+      }
+    ],
+    "price": "",
+    "short_code": ["dnp", "srp", "lgu"],
+    "type": ""
+  }
+]

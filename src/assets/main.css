@@ -1,0 +1,46 @@
+* {
+	color: inherit;
+}
+
+::-webkit-scrollbar {
+	@apply bg-indigo-600 w-1.5;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-indigo-400 cursor-pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-indigo-300 cursor-pointer;
+}
+
+:where(html, body) {
+	height: 100%;
+}
+
+body {
+	@apply max-w-[40rem] m-auto bg-indigo-500 text-white font-mono flex flex-col justify-between gap-3;
+}
+
+.select {
+	@apply text-black font-bold py-1 px-2 rounded-sm cursor-pointer;
+}
+
+.select > * {
+	@apply text-black font-bold;
+}
+
+.input {
+	max-width: 5.55rem;
+	@apply text-black font-bold py-1 px-2 rounded-sm;
+}
+
+.v-enter-active,
+.v-leave-active {
+	transition: all 180ms linear;
+}
+
+.v-enter-from,
+.v-leave-to {
+	translate: 0 1rem;
+}
