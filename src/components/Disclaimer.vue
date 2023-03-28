@@ -39,15 +39,14 @@ const showHelp = useHelperStore();
 
 			<p>
 				<iframe
-					class="max-w-full rounded"
-					id="ytplayer"
-					type="text/html"
 					width="720"
 					height="351"
-					src="https://www.youtube.com/embed/wNI4u1d-sF0"
+					src="https://www.youtube-nocookie.com/embed/wNI4u1d-sF0"
+					title="PH Santos: Streamings: Como economizar? Tenho um plano!"
 					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowfullscreen
-				/>
+				></iframe>
 			</p>
 		</div>
 	</div>
