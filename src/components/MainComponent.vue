@@ -182,7 +182,7 @@ for (const service of savedServices.value) {
 
 			<div class="flex flex-col gap-2">
 				<div
-					class="cursor-pointer flex flex-row gap-2 items-center justify-start"
+					class="cursor-pointer flex flex-row flex-wrap gap-2 items-center justify-start"
 					@click="addService(service)"
 					v-for="service of services.filter((e) => e.combo)"
 					tabindex="0"

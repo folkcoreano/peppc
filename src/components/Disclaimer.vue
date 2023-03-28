@@ -37,17 +37,16 @@ const showHelp = useHelperStore();
 			<p>na verdade seria até cômodo colocar o vídeo aqui logo, né?</p>
 			<p>pois aqui está:</p>
 
-			<p>
+			<div>
 				<iframe
-					width="720"
-					height="351"
+					class="w-full rounded sm:h-[350px] h-[270px]"
 					src="https://www.youtube-nocookie.com/embed/wNI4u1d-sF0"
 					title="PH Santos: Streamings: Como economizar? Tenho um plano!"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowfullscreen
 				></iframe>
-			</p>
+			</div>
 		</div>
 	</div>
 </template>

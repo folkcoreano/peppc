@@ -39,7 +39,7 @@ watchEffect(() => {
 	<ReloadPrompt />
 
 	<footer class="flex flex-col items-center py-2">
-		<div class="font-bold uppercase">versão: 1.5.3</div>
+		<div class="font-bold uppercase">versão: 1.5.4</div>
 		<div class="flex flex-row flex-wrap gap-1 uppercase font-bold">
 			<button
 				@click="showHelp.help = !showHelp.help"
