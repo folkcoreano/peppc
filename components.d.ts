@@ -12,6 +12,5 @@ declare module '@vue/runtime-core' {
     Disclaimer: typeof import('./src/components/Disclaimer.vue')['default']
     MainComponent: typeof import('./src/components/MainComponent.vue')['default']
     ReloadPrompt: typeof import('./src/components/ReloadPrompt.vue')['default']
-    ThemeSwitcher: typeof import('./src/components/ThemeSwitcher.vue')['default']
   }
 }

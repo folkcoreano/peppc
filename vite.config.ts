@@ -27,7 +27,7 @@ export default defineConfig({
 				enabled: false,
 			},
 			workbox: {
-				globPatterns: ["**/*.{js,css,html,ico,png,svg,json,wav,txt}"],
+				globPatterns: ["**/*.{js,css,html,ico,png,svg,json,webp,wav,txt}"],
 			},
 			strategies: "generateSW",
 			filename: "root.js",

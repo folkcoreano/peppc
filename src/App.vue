@@ -16,7 +16,7 @@ watchEffect(() => {
 	<header class="flex flex-col gap-2 justify-center items-center py-3">
 		<div class="pointer-events-none select-none">
 			<img
-				src="192.png"
+				src="/192.png"
 				alt="icon"
 				class="max-w-[3.55rem]"
 			/>
