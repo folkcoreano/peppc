@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import {version} from "@/stores/version";
 import {useRegisterSW} from "virtual:pwa-register/vue";
 
 const {offlineReady, needRefresh, updateServiceWorker} = useRegisterSW();
@@ -18,7 +19,7 @@ const close = async () => {
 		<div class="flex flex-col gap-2">
 			<div class="message font-bold">
 				<span v-if="offlineReady">Prontinho para funcionar offline!</span>
-				<span v-else>Novo conteúdo disponível.</span>
+				<span v-else>Nova versão dispinível: {{ version }}</span>
 			</div>
 			<button
 				class="pwa-button"

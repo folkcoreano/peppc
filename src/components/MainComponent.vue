@@ -132,7 +132,7 @@ for (const service of savedServices.value) {
 			<div class="font-bold uppercase text-lg flex-1">serviços:</div>
 			<button
 				v-if="finalUrl"
-				class="cursor-pointer border-r-2 border-b-2 border-green-8 uppercase bg-green-5 transition-all font-bold px-2 rounded hover:(bg-green-6 border-r-0 border-b-0 px-2.2)"
+				class="cursor-pointer border-r-2 border-b-2 border-green-8 uppercase bg-green-5 font-bold px-2 rounded active:(bg-green-6 border-r-0 border-b-0 px-2.2)"
 				@click="copyServices"
 				@keydown.space.enter="copyServices"
 			>
@@ -140,7 +140,7 @@ for (const service of savedServices.value) {
 			</button>
 
 			<button
-				class="cursor-pointer border-r-2 border-b-2 border-violet-8 uppercase bg-violet-5 transition-all font-bold px-2 rounded hover:(bg-violet-6 border-r-0 border-b-0 px-2.2)"
+				class="cursor-pointer border-r-2 border-b-2 border-violet-8 uppercase bg-violet-5 font-bold px-2 rounded active:(bg-violet-6 border-r-0 border-b-0 px-2.2)"
 				@click="pasteServices"
 				@keydown.space.enter="pasteServices"
 			>
@@ -149,7 +149,7 @@ for (const service of savedServices.value) {
 
 			<button
 				v-if="finalUrl"
-				class="cursor-pointer border-r-2 border-b-2 border-red-8 uppercase bg-red-5 transition-all font-bold px-2 rounded hover:(bg-red-6 border-r-0 border-b-0 px-2.2)"
+				class="cursor-pointer border-r-2 border-b-2 border-red-8 uppercase bg-red-5 font-bold px-2 rounded active:(bg-red-6 border-r-0 border-b-0 px-2.2)"
 				@click="clearServices"
 				@keydown.space.enter="clearServices"
 			>
@@ -221,7 +221,7 @@ for (const service of savedServices.value) {
 				v-if="finalUrl"
 				:href="finalUrl"
 				target="_blank"
-				class="cursor-pointer border-r-2 border-b-2 border-green-8 uppercase bg-green-5 transition-all font-bold px-3 py-1 text-lg rounded hover:(bg-green-6 border-r-0 border-b-0)"
+				class="cursor-pointer border-r-2 border-b-2 border-green-8 uppercase bg-green-5 font-bold px-3 py-1 text-lg rounded active:(bg-green-6 border-r-0 border-b-0)"
 			>
 				checar catálogo
 			</a>

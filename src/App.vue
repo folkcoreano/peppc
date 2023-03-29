@@ -1,4 +1,5 @@
 <script setup>
+import {version} from "@/stores/version";
 import Disclaimer from "@/components/Disclaimer.vue";
 import MainComponent from "@/components/MainComponent.vue";
 import {useHelperStore} from "@/stores/helper";
@@ -39,7 +40,7 @@ watchEffect(() => {
 	<ReloadPrompt />
 
 	<footer class="flex flex-col items-center py-2">
-		<div class="font-bold uppercase">versão: 1.5.4</div>
+		<div class="font-bold uppercase">versão: {{ version }}</div>
 		<div class="flex flex-row flex-wrap gap-1 uppercase font-bold">
 			<button
 				@click="showHelp.help = !showHelp.help"
